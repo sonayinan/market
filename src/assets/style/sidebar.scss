@@ -1,0 +1,50 @@
+.sidebar{
+    background:linear-gradient(#ffbfbf7a,#F7C8E0) ;
+    width: 30%;
+    
+    font-size: 20px;
+    ul{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10px;
+        li{
+            &:hover{
+                transform: scale(1.1);
+                color: #617A55;
+                text-shadow: 5px 5px 10px rgb(133, 126, 133);
+            }
+        }
+    }
+    
+    li::marker{
+    content: "🧠";
+   }
+   form{
+    border: 1px solid #b5f1ccc2;
+    width: 250px;
+    background-color: #B5F1CC;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+   }
+   input[type="submit"]{
+    background-color: #FCC2FC;
+    padding: 15px;
+    font-size: 15px;
+    &:hover{
+        background-color: #C9F4AA;
+    }
+   }
+   input[type="submit"]:disabled{
+    visibility: hidden;
+}
+input,select{
+    display: block;
+    margin: auto;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+}

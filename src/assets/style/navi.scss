@@ -1,0 +1,28 @@
+
+nav{
+    background:linear-gradient(#C3E2C2,#c7b3b30c);
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+   color: #3D5656;
+    img{
+        width: 80px;
+    }
+    .logo{
+        display: flex;
+    align-items: center;
+    gap: 0px 50px;
+    color: black;
+    
+  
+  
+    span{
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+  
+    }
+    
+}
